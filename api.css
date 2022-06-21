@@ -1,0 +1,30 @@
+body{
+    padding:0;
+    background-color: #27686c;
+    
+} 
+
+:root {
+    --primary-color: 27686c;}
+
+.search{
+    background-color:transparent;
+    border: 2px solid var(--primary-color);
+    color: rgb(204, 207, 213);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.users { 
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-weight:lighter;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15%;
+}
